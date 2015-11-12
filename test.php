@@ -27,5 +27,3 @@ class BasketController {
         print "<h1>Добавлен товар в корзину: {$item->title}</h1>" // (11) $item из foreach, а не из верхнего $item и (12) нет окончания инструкций точкой с запятой
     }
 }
-
-
