@@ -6,9 +6,9 @@ class BasketController {
 
         $basket = $_GLOBALS['basket']; // (2) Массив $_GLOBALS не определен или неверное написание $GLOBALS
 
-        $basket->addItem($item);
+        $basket->addItem($item); //
 
-        if($basket->countItems() > 10) {
+        if($basket->countItems() > 10) { //
             $basket->errorMessages->add("Слишком много товаров в корзине.") // (3) Нет окончания инструкций точкой с запятой
         }
  
